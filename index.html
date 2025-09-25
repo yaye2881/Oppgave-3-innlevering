@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <title>Hjem</title>
+    <link href="code.png" rel="icon" type="image/png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- type=module trenger regler definert
+    defer trenger ikke i JS -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <img src="code.png" alt="Ikon av HTML klammetegn" />
+      <nav class="headerNav">
+        <ul class="hidden navList">
+          <li><a href="#">ItemA</a></li>
+          <li><a href="#">ItemB</a></li>
+          <li><a href="#">ItemC</a></li>
+        </ul>
+        <img
+          onclick="hamburgerToggle()"
+          class="hamburgerIcon"
+          src="hamburger.png"
+          alt="borgir"
+        />
+      </nav>
+    </header>
+    <main>
+      <section class="textImg">
+        <div class="textAlign">
+          <h1>Carina Nebula</h1>
+          <p>
+            Stjernehopen (Star cluster) holder på den yngste stjernen vi vet om,
+            og er estimert til å være sirka 500 000 år gammel. Denne
+            stjernehopen ble oppdaget av den Franske astronomen Nicolas-Louis de
+            Lacaille i 1752 på en reise i Cape of Good Hope (Sør Afrika) <br />
+            Eta Carina er estimert til å være ca. 100-150 ganger større enn
+            våres egen sol, og den er ca 40 millioner ganger lysere enn våres
+            egen sol.
+          </p>
+          <p>
+            Denne stjernetåken (Nebula) holder mer enn 14 000 stjerner og svære
+            støvskyer som formeres til som vi har gitt kallenavnene som "The
+            Cosmic Cliffs", "Finger of God", "Mystic Mountain" og flere.
+          </p>
+        </div>
+        <img
+          class="imgShowcase"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/70/Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg"
+          alt="Carina Nebula"
+        />
+      </section>
+      <section class="imgText">
+        <div>
+          <h1>Westerhout 51</h1>
+          <p>Fra jorden er den kun synelig med radio signaler og infrarødt lyd selv om den holder på ~20 millioner stjerner. Den er så stor at om du kunne sett den med blotte øyet fra jorden så hadde den vært cirka like stor som månen. Denne Stjerne formerings region holder en av de største aktive stjerne fabrikkene (Star factory) gjennom hele galaksen. Dette er spesielt impornerende med tanke på at den er 17.000 lyseår vekke fra jorden, "Carina Nebula" er den lyseste tåken (Nebula) og er mellom 8.500-9.000 lyseår vekke.
+          </p>
+        </div>
+        <img
+          class="imgShowcase"
+          src="https://upload.wikimedia.org/wikipedia/commons/4/46/PIA23865-W51Nebula-StarFactory-20200825.jpg"
+          alt="Westerhout 51"
+        />
+      </section>
+      <section class="textImgEnd">
+        <div>
+          <h1>Homunculus Nebula</h1>
+          <p>
+            Det er en såkalt bipolare emisjontåken (Bipolar emission nebula) som noen skulle
+            trodd var en en Supernova siden det ser ut til å være ikke bare en,
+            men to forskjellige eksposjoner som kolliderer mot hverandre under
+            ekspansjonen. Nei det er faktisk en såkalt Supernova bedrager
+            (Supernova imposter) som har de samme karakteriske trekkene til en
+            Supernova. Men med litt mer nøye instrumenter så ligger hydrogenet
+            sitt spekter på en lavere frekvens enn hva en Supernova ville vært
+            på. <br />
+            Eddigton luminosity prinsippet er når balansen av den radioaktive
+            kraften dytter ut mot hvor mye gravitasjonen holder massen inne. Det
+            vil si basert på Eddigton luminosity så samsvarer det ikke at de
+            skal være en eller to som sprenger mot hverandre. 
+            <br>Fun fact: Homunculus ordet kommer fra Latinske språket som alkymister (Alchemists) brukte for "kunstig menneske" men som ble som oftest referert til som "Little man"
+            <br>Annen relatert fun fact innenfor alkemi verden som jeg trenger å få ut: Ordet Grimoire som er ofte brukt i DnD kommer fra ordet "Grammer".
+          </p>
+        </div>
+        <img
+          class="imgShowcase"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7c/EtaCarinae.jpg"
+          alt="Homunculus Nebula"
+        />
+      </section>
+    </main>
+    <footer class="footer">
+      <h3>Ørjan Solheim</h3>
+    </footer>
+  </body>
+</html>
